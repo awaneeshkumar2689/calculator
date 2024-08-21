@@ -1,0 +1,58 @@
+<html>
+<title> CASIO </title>
+<head> 
+<center>
+CASIO
+</center>
+<style>
+
+#abc{
+width:130px;
+}
+.formstyle{
+width:130;
+height=2610;
+margin=auto;
+border:2px solid blue;
+}
+input
+{
+width:40px;
+background=color:green;
+color:red; 
+}
+#abcdstyle{
+width:130px;
+}
+</style>
+</head>
+<center>
+<body>
+<div class="formstyle">
+<form name="forms">
+<input type="text" name="answer" id="answerstyle"><br> </br>
+<input type="button" value="1" onclick="form.answer.value+='1'">
+<input type="button" value="2" onclick="form.answer.value+='2'">
+<input type="button" value="3" onclick="form.answer.value+='3'">
+<br></br>
+<input type="button" value="4" onclick="form.answer.value+='4'">
+<input type="button" value="5" onclick="form.answer.value+='5'">
+<input type="button" value="6" onclick="form.answer.value+='6'">
+<br></br>
+<input type="button" value="7" onclick="form.answer.value+='7'">
+<input type="button" value="8" onclick="form.answer.value+='8'">
+<input type="button" value="9" onclick="form.answer.value+='9'">
+<br></br>
+<input type="button" value="+" onclick="form.answer.value+='+'">
+<input type="button" value="-" onclick="form.answer.value+='-'">
+<input type="button" value="*" onclick="form.answer.value+='*'">
+<br></br> 
+<input type="button" value="/" onclick="form.answer.value+='/'">
+<input type="button" value="0" onclick="form.answer.value+='0'">
+<input type="button" value="=" onclick="form.answer.value=eval(form.answer.value)">
+<br> </br>
+<input type="button" value="Clear All" onclick="form.answer.value=''"id="abc">
+ </div> 
+</body>
+</center>
+</html>
